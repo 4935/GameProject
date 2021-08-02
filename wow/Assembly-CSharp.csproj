@@ -47,7 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>2.0.8</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>2.0.9</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2020.3.12f1</UnityVersion>
@@ -59,7 +59,9 @@
     <Compile Include="Assets\Scripts\Controllers\PlayerMovement.cs" />
     <Compile Include="Assets\Toon-Shader-master\Awesome Toon\AwesomeToonHelper.cs" />
     <Compile Include="Assets\Toon-Shader-master\Awesome Toon\Extra\LightFlicker.cs" />
+    <Compile Include="Assets\Scripts\DN Cycle\LightingManager.cs" />
     <Compile Include="Assets\Scripts\TextureCycle.cs" />
+    <Compile Include="Assets\Scripts\DN Cycle\LightingPreset.cs" />
     <Compile Include="Assets\Scripts\SceneChanger.cs" />
     <Compile Include="Assets\Scripts\Controllers\AITest.cs" />
     <Compile Include="Assets\Scripts\Controllers\PlayerManager.cs" />
@@ -72,8 +74,6 @@
     <Compile Include="Assets\Scripts\PixelatedCamera.cs" />
     <Compile Include="Assets\Scripts\TextAppear.cs" />
     <Compile Include="Assets\Scripts\Controllers\DashAbility.cs" />
-    <Compile Include="Assets\Scripts\DN Cycle\LightingPreset.cs" />
-    <Compile Include="Assets\Scripts\DN Cycle\LightingManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

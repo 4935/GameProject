@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
-
+    //Health stuff
+    public int maxHealth = 100;
+    public int currentHealth;
+    public HealthBar healthBar;
 
     private CharacterController characterController;
     public CharacterController controller;
@@ -26,7 +29,14 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
-        
+        currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
+    }
+
+    private void TakeDMG(int damage)
+    {
+        currentHealth -= damage;
+        healthBar.SetHealth(currentHealth);
     }
 
     void Update()
@@ -62,7 +72,7 @@ public class PlayerMovement : MonoBehaviour
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
 
-        anim.SetBool("isRunning", Input.GetAxis("Vertical") != 0);
+        //anim.SetBool("isRunning", Input.GetAxis("Vertical") != 0);
         //anim.SetBool("Horizontal", Input.GetAxis("Horizontal"));
     }
 }

@@ -58,22 +58,32 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Controllers\PlayerMovement.cs" />
     <Compile Include="Assets\Toon-Shader-master\Awesome Toon\AwesomeToonHelper.cs" />
+    <Compile Include="Assets\Scripts\HoverCar\BCInterpolator.cs" />
     <Compile Include="Assets\Toon-Shader-master\Awesome Toon\Extra\LightFlicker.cs" />
     <Compile Include="Assets\Scripts\DN Cycle\LightingManager.cs" />
     <Compile Include="Assets\Scripts\TextureCycle.cs" />
     <Compile Include="Assets\Scripts\DN Cycle\LightingPreset.cs" />
+    <Compile Include="Assets\Scripts\HoverCar\RigidBody.cs" />
     <Compile Include="Assets\Scripts\SceneChanger.cs" />
     <Compile Include="Assets\Scripts\Controllers\AITest.cs" />
+    <Compile Include="Assets\TextWriter\Scripts\DialogueTest.cs" />
     <Compile Include="Assets\Scripts\Controllers\PlayerManager.cs" />
+    <Compile Include="Assets\Scripts\HoverCar\HoverCar.cs" />
     <Compile Include="Assets\Scripts\playButtonScript.cs" />
     <Compile Include="Assets\Scripts\TextureTest.cs" />
     <Compile Include="Assets\Scripts\Controllers\AITest2.cs" />
     <Compile Include="Assets\Scripts\DN Cycle\DayNightCycle.cs" />
     <Compile Include="Assets\Scripts\PixelatedCameraEditor.cs" />
+    <Compile Include="Assets\Scripts\RBMovement.cs" />
+    <Compile Include="Assets\Scripts\Controllers\Example.cs" />
     <Compile Include="Assets\Scripts\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\Controllers\BarycentricCoordScript.cs" />
     <Compile Include="Assets\Scripts\PixelatedCamera.cs" />
+    <Compile Include="Assets\Scripts\BarCentCoords.cs" />
     <Compile Include="Assets\Scripts\TextAppear.cs" />
+    <Compile Include="Assets\TextWriter\Scripts\TextWriter.cs" />
     <Compile Include="Assets\Scripts\Controllers\DashAbility.cs" />
+    <Compile Include="Assets\CarCam.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
